@@ -19,3 +19,9 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+Route::get('test/index', 'TestController@index');
+Route::get('test/setcache', 'TestController@setcache');
+Route::get('test/setlog', 'TestController@setlog');
+Route::get('test/sethash', 'TestController@sethash');
