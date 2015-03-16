@@ -53,9 +53,15 @@ class TestController extends Controller {
 		if( Hash::check($pw, $result) ){
 			echo "The same!";
 		}
+		echo var_dump( $result );
+	}
+	
+	
+	public function setschedule(){
+		
 
 		
-		echo var_dump( $result );
+		
 	}
 	
 	
