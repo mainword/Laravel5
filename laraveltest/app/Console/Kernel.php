@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel {
 	{
 		// $schedule->command('inspire')
 		// 		 ->hourly();
-		// 		 
+			 
 				$filePath = "/tmp/schedule.log";
 				$schedule ->command('cache:clear')
 							->sendOutputTo($filePath)
